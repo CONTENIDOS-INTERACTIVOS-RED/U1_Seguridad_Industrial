@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4La unidad Identificación y evaluación de peligros y riesgos en entornos industriales, aborda conceptos claves en higiene y seguridad industrial. A través de tres módulos, se estudian los fundamentos, las metodologías para identificar peligros (checklists, inspecciones, APR) y la evaluación cualitativa y cuantitativa, del riesgo (matrices, GTC 45). Se promueve una cultura preventiva, la gestión proactiva de riesgos y el cumplimiento normativo. El enfoque combina análisis técnicos y participación activa de los trabajadores, fortaleciendo la protección de la salud laboral, la eficiencia operativa y la sostenibilidad organizacional.
+              p.descripcion.mb-4 La unidad Identificación y evaluación de peligros y riesgos en entornos industriales, aborda conceptos claves en higiene y seguridad industrial. A través de tres módulos, se estudian los fundamentos, las metodologías para identificar peligros (checklists, inspecciones, APR) y la evaluación cualitativa y cuantitativa, del riesgo (matrices, GTC 45). Se promueve una cultura preventiva, la gestión proactiva de riesgos y el cumplimiento normativo. El enfoque combina análisis técnicos y participación activa de los trabajadores, fortaleciendo la protección de la salud laboral, la eficiencia operativa y la sostenibilidad organizacional.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
